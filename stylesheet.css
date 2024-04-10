@@ -20,6 +20,7 @@
     
     border-radius: 50%; /* Makes the profile image round */
     width: 110px;
+    height: fit-content;
     background-color: gray; /* Placeholder for profile image */
     margin: 0 auto 10px; /* Centers the profile image */
 }
