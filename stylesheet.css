@@ -58,6 +58,7 @@
     justify-content: center;
 }
 .profile-img img {
+    background-image: url(img/cato\ edit2.jpeg);
     display: flex;
     width: 50%; /* Ensure the image fills the container */
     height: auto; /* Maintain aspect ratio */
