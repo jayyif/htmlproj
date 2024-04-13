@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <style>
+        @media screen and (max-width: 500px) {
+    
+    abbr {
+        text-decoration: none;
+        font-size: 0.8em; /* Adjust the font size as needed */
+        display: none; /* Hide the abbreviation */
+    }
+    th:nth-child(2)::before {
+        content: "M";
+    }
+    th:nth-child(3)::before {
+        content: "T";
+    }
+    th:nth-child(4)::before {
+        content: "W";
+    }
+    th:nth-child(5)::before {
+        content: "TH";
+    }
+    th:nth-child(6)::before {
+        content: "F";
+    }
+    .highlight{
+        width: 5%;
+    }
+}
+
+    </style>
+    
+</head>
+<body class="schedule-body">
+    <h1>TIME TABLE</h1>
+    <table>
+        <tr>
+            <th>Day/Period</th>
+            <th><abbr title="Monday">Monday</abbr></th>
+            <th><abbr title="Tuesday">Tuesday</abbr></th>
+            <th><abbr title="Wednesday">Wednesday</abbr></th>
+            <th><abbr title="Thursday">Thursday</abbr></th>
+            <th><abbr title="Friday">Friday</abbr></th>
+        </tr>
+        <tr>
+            <td class="highlight">8</td>
+            <td class="tooltip">
+                <div class="tooltiptext">8:00am-9:15am</div>
+                <div class="work">Sleeping</div>
+            </td>
+            <td class="tooltip">
+                <div class="tooltiptext">8:00am-9:15am</div>
+                <div class="work">Eating</div>
+            </td>
+            <td class="tooltip">
+                <div class="tooltiptext">8:00am-9:15am</div>
+                <div class="work">Grooming</div>
+            </td>
+            <td class="tooltip">
+                <div class="tooltiptext">8:00am-9:15am</div>
+                <div class="work">Begging for food</div>
+            </td>
+            <td class="tooltip">
+                <div class="tooltiptext">8:00am-9:15am</div>
+                <div class="work">watching tv</div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="highlight">9</td>
+            <td class="tooltip">
+                <div class="tooltiptext">9:15am-9:30am</div>
+                <div class="work">Sleeping</div>
+            </td>
+            <td class="tooltip">
+                <div class="tooltiptext">9:15am-9:30am</div>
+                <div class="work">Eating</div>
+            </td>
+            <td class="tooltip">
+                <div class="tooltiptext">9:15am-9:30am</div>
+                <div class="work">Grooming</div>
+            </td>
+            <td class="tooltip">
+                <div class="tooltiptext">9:15am-9:30am</div>
+                <div class="work">Begging for food</div>
+            </td>
+            <td class="tooltip">
+                <div class="tooltiptext">9:15am-9:30am</div>
+                <div class="work">watching tv</div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="highlight">10</td>
+            <td class="tooltip">
+                <div class="tooltiptext">10 am-9:30am</div>
+                <div class="work">Sleeping</div>
+            </td>
+            <td class="tooltip">
+                <div class="tooltiptext">9:15am-9:30am</div>
+                <div class="work">Eating</div>
+            </td>
+            <td class="tooltip">
+                <div class="tooltiptext">9:15am-9:30am</div>
+                <div class="work">Grooming</div>
+            </td>
+            <td class="tooltip">
+                <div class="tooltiptext">9:15am-9:30am</div>
+                <div class="work">Begging for food</div>
+            </td>
+            <td class="tooltip">
+                <div class="tooltiptext">9:15am-9:30am</div>
+                <div class="work">watching tv</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="highlight">11</td>
+            <td class="tooltip">
+                <div class="tooltiptext">9:00am-10:15am</div>
+                <div class="work">Sleeping</div>
+            </td>
+            
+            <td>sleeping</td>
+            <td>sleeping</td>
+            <td>jamboo</td>
+            <td>jamboo</td>
+        </tr>
+
+        <tr>
+            <td class="highlight">12</td>
+            <td class="tooltip">
+                <div class="tooltiptext">9:00am-10:15am</div>
+                <div class="work">Sleeping</div>
+            </td>
+            
+            <td>sleeping</td>
+            <td>sleeping</td>
+            <td>jamboo</td>
+            <td>jamboo</td>
+        </tr>
+
+        <tr>
+            <td class="highlight">1</td>
+            <td class="tooltip">
+                <div class="tooltiptext">9:00am-10:15am</div>
+                <div class="work">Sleeping</div>
+            </td>
+            
+            <td>sleeping</td>
+            <td>sleeping</td>
+            <td>jamboo</td>
+            <td>jamboo</td>
+        </tr>
+
+        
+    </table>
+</body>
+</html>
