@@ -257,7 +257,7 @@ body {
     .sidebar-open {
 
         visibility: visible;
-        width: 45%;
+        width: 55%;
         transition: width 0.3s ease-out, visibility 0s linear;
     }
 
