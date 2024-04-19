@@ -27,3 +27,4 @@ function toggleSidebar() {
         closeIcon.style.display = 'none';
     }
 }
+

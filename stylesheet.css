@@ -262,6 +262,11 @@ body {
     }
 
     
+    .social-icons{
+        display: flex;
+        flex-direction: row;
+    }
+    
 
 }
 
@@ -286,7 +291,15 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    min-height: 100;
+
+
 }
+
 th, td {
     border: 1px solid #ddd;
     padding: 5px;  
@@ -321,7 +334,7 @@ abbr{
     background-color: #f98C0D;
     color: #fff;
     font-weight: bold;
-    text-align: center;
+    text-align:left;
     border-radius: 0px;
     padding: 5px;
     position: absolute;
