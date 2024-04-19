@@ -99,10 +99,6 @@ a{
     color: inherit; /* Inherits the color from the parent button */
 }
 
-.nav-buttons i:hover {
-    background-color: peru;
-}
-
 button:hover .fas,
 button:hover .fa,
 button:hover .far {
@@ -330,7 +326,7 @@ abbr{
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
+    width: 130px;
     background-color: #f98C0D;
     color: #fff;
     font-weight: bold;
@@ -375,4 +371,6 @@ table tr td:hover .tooltiptext {
 .work:hover{
     background-color: #F9750A;
 }
+
+
 
