@@ -33,9 +33,6 @@ h1 {
   margin-bottom: 10px;
 }
 
-.options {
-  margin-bottom: 20px;
-}
 
 .option {
   display: block;
@@ -55,11 +52,6 @@ h1 {
   margin-right: 10px;
 }
 
-#submit{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} 
 
 .button:hover {
   background-color: #884e0b;
@@ -83,26 +75,39 @@ h1 {
 }
 
 .home-button-div{
-  position: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   margin-bottom: 10px;
 }
+
 .home-button{
-  position: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+  margin-bottom: 15px;
+  padding: 7px;
+  margin-right: 10px
 }
 
-.home-button-quiz{
-  position: flex;
-  flex-direction: row;
-  justify-content: center;
-  
+.home-button-container {
+  position: fixed;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f98C0D;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+
+
 }
 
-
+.home-button-container:hover{
+  background-color: #F9750A;
+  transition: background-color 0.3s;
+}
 
 
