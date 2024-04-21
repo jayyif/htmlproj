@@ -33,6 +33,12 @@ h1 {
   margin-bottom: 10px;
 }
 
+#username{
+  width: 100px;
+  margin-right: 10px;
+}
+
+
 
 .option {
   display: block;
