@@ -88,15 +88,13 @@ a{
 
 .nav-buttons button a {
     text-decoration: none;
-    color: inherit; /* Inherits the color from the parent button */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.nav-buttons button a i {
+.nav-buttons a button  i {
     margin-right: 5px; /* Add some space between icon and text */
-    color: inherit; /* Inherits the color from the parent button */
 }
 
 button:hover .fas,
@@ -393,6 +391,7 @@ table tr td:hover .tooltiptext {
 
 .go-home:hover{
     background-color: #F9750A;
+    transition: background-color 0.3s;
 }
 
 
